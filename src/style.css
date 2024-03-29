@@ -1,0 +1,50 @@
+/*  */
+html{
+    font-size: 62.5%;
+    /* 1.6rem = 16px */
+    /* 2rem = 20px */
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero"
+    "services services services services"
+    "projects projects projects projects"    
+    "footer footer footer footer"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* HEADER */
+
+.header{
+    grid-area: header;
+}
+
+/* HERO */
+
+.hero{
+    grid-area: hero;
+}
+
+/* ABOUT */
+
+.hero{
+    grid-area: about;
+}
+
+/* SERVICES */
+
+.services{
+    grid-area: services;
+}
+
+/* PROJECTS */
+
+.projects{
+    grid-area: projects;
+}
