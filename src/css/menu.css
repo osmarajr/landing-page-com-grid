@@ -107,7 +107,7 @@
         text-align: center;
     }
 
-    .header nav ul a{
-        padding: 20px;
+    .header nav ul li{
+        margin-block: 20px;
     }
 }
