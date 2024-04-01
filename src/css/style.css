@@ -92,8 +92,24 @@ body{
 
 /* ABOUT */
 
-.hero{
+.about{
     grid-area: about;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+}
+
+.about .image{
+    height: 100%;
+    width: 100%;
+}
+
+.about .image.right{
+    background: url("../images/bridge.jpg") center no-repeat;
+    background-size: cover;
+}
+.about .image.left{
+    background: url('../images/');
 }
 
 /* SERVICES */
